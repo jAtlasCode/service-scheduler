@@ -1,0 +1,32 @@
+.layout {
+  min-height: 100vh;
+}
+
+.layout-footer {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  background-color: white !important;
+}
+
+.layout-footer-mobile {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  background-color: white !important;
+  padding: 12px 25px !important;
+}
+
+.layout-content {
+  padding: 24px;
+  margin: 16px;
+
+  /* background: #eaeaea !important; */
+}
+
+.container {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
